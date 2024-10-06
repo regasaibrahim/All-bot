@@ -19,7 +19,7 @@ bot.start((ctx) => ctx.reply('HI, I am web designer and developer', {
 bot.help((ctx) => ctx.reply('call me at 0930728383'));
 
 // Set webhook for Render deployment
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 const URL = process.env.RENDER_EXTERNAL_URL || 'https://your-render-url.com';  // Replace with Render's URL for your service
 
 // Launch the bot in webhook mode
